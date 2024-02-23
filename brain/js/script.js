@@ -327,23 +327,23 @@ var RColor;
 function showResult(percentage, ca) {
 	if (percentage == 100) {
 		RColor = 'teal';
-		resultFb.innerHTML = 'Wohoo.. Great, You are pass!';
+		resultFb.innerHTML = 'عاش بجددد؛ تقديرك امتياز جداً';
 		correctAns.innerHTML = 'Correct Answers: ' + ca;
 	} else if (percentage >= 80) {
 		RColor = 'green';
-		resultFb.innerHTML = 'Congrats! You are pass.';
+		resultFb.innerHTML = 'عاش بجدد؛ تقديرك امتياز';
 		correctAns.innerHTML = 'Correct Answers: ' + ca;
 	} else if (percentage >= 65) {
 		RColor = 'blue';
-		resultFb.innerHTML = 'Good Effort, You are pass.';
+		resultFb.innerHTML = 'مستني منك أداء أفضل الكويز القادم؛ تقديرك: جيد جدا؛ الحاله: ناجح';
 		correctAns.innerHTML = 'Correct Answers: ' + ca;
 	} else if (percentage >= 50) {
 		RColor = 'orange';
-		resultFb.innerHTML = 'You are passed!';
+		resultFb.innerHTML = 'نشد شويه؛ تقديرك: مقبول؛ الحاله: ناجح علي تكه';
 		correctAns.innerHTML = 'Correct Answers: ' + ca;
 	} else {
 		RColor = 'red';
-		resultFb.innerHTML = 'Oh No! Your Are Failed... <br> Better Luck Next Time';
+		resultFb.innerHTML = 'للاسف الشديد انت شلت المادة؛ سجلها سمر <br> ولا تزعل نفسك با هندسه امتحان و عدي مكنش امتحان الآخره';
 		correctAns.innerHTML = 'Correct Answers: ' + ca;
 	}
 
