@@ -792,7 +792,7 @@ form .select2.error + .select2-container--default .select2-selection--multiple {
             .then((result) => {
                 // Signed in successfully
                 const user = result.user;
-                window.location.href = "courses.php"; // Redirect to courses page after successful login
+                window.location.href = "quiz.html"; // Redirect to courses page after successful login
             })
             .catch((error) => {
                 console.error(error);
@@ -825,7 +825,7 @@ form .select2.error + .select2-container--default .select2-selection--multiple {
             .then((userCredential) => {
                 // Signed in successfully
                 const user = userCredential.user;
-                window.location.href = "courses.php"; // Redirect to courses page after successful login
+                window.location.href = "quiz.html"; // Redirect to courses page after successful login
             })
             .catch((error) => {
                 // Error handling
