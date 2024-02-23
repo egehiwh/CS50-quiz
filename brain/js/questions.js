@@ -11,110 +11,110 @@ function CQuiz(que, o1, o2, o3, o4, ans, d) {
 
 // Question 1
 var q1 = new CQuiz(
-	'Which function among the following lets to register a function to be invoked repeatedly after a certain time?',
-	'setTimeout()',
-	'setTotaltime()',
-	'setInterval()',
-	'none of the mentioned',
-	3,
+	'Which of the following accurately describes the difference between a compiler and an interpreter?',
+	'A compiler translates source code into machine code, while an interpreter executes code line by line.',
+	'A compiler executes code line by line, while an interpreter translates source code into machine code.',
+	'Both compilers and interpreters translate source code into machine code, but interpreters do so faster.',
+	'Both compilers and interpreters execute code line by line, but compilers generate more efficient machine code.',
+	1,
 	0
 );
 
 // Question 2
 var q2 = new CQuiz(
-	'To which object does the location property belong?',
-	'Window',
-	'Position',
-	'Element',
-	'Location',
-	1,
+	'Which of the following is an example of a data structure?',
+	'int',
+	'float',
+	'if-else statement',
+	'array',
+	4,
 	0
 );
 
 // Question 3
 var q3 = new CQuiz(
-	'What is the result of the following code snippet? <br> <pre> window.location === document.location </pre>',
-	'False',
-	'True',
-	'1',
-	'0',
+	'What is the role of HTML in web development?',
+	'To style web pages',
+	'To define the structure of web pages',
+	'To provide interactive functionality',
+	'To manage server-side logic',
 	2,
 	0
 );
 
 // Question 4
 var q4 = new CQuiz(
-	'Which of the following is not a framework?',
-	'jQuery',
-	'.NET',
-	'JavaScript',
-	'None of the mentioned',
+	'What is the brain of the computing machine?',
+	'Arthimitic logic unit',
+	'cpu',
+	'transistor',
+	'resistor',
 	3,
 	0
 );
 
 // Question 5
 var q5 = new CQuiz(
-	'Inside which HTML element do we put the JavaScript?',
-	'&lt;javascript&gt;',
-	'&lt;script&gt;',
-	'&lt;scripting&gt;',
-	'&lt;js&gt;',
-	2,
+	'What is a pixel?',
+	'A small piece of data used for authentication.',
+	'A unit of measurement for font sizes.',
+	'The smallest unit of a digital image displayed on a screen.',
+	'A type of computer memory storage.',
+	3,
 	0
 );
 
 // Question 6
 var q6 = new CQuiz(
-	'What is the correct JavaScript syntax to change the content of the HTML element below? <br> <pre>&lt;p id="demo"&gtThis is made by Owais.&lt;/p&gt</pre>',
-	'document.getElementByName("p").innerHTML = "Hello World!";',
-	'#demo.innerHTML = "Hello World!";',
-	'document.getElementById("demo").innerHTML = "Hello World!";',
-	'document.getElement("p").innerHTML = "Hello World!";',
-	3,
+	'How many digits does binary code contain?',
+	'0,1',
+	'1',
+	'0',
+	'2',
+	4,
 	0
 );
 
 // Question 7
 var q7 = new CQuiz(
-	'What is the correct syntax for referring to an external script called "script.js"?',
-	'&lt;script src="script.js"&gt;',
-	'&lt;script href="script.js"&gt;',
-	'&lt;script name="script.js"&gt;',
-	'&lt;script link="script.js"&gt;',
+	'What is the purpose of ASCII?',
+	'To encode images.',
+	'To represent numeric values.',
+	'To standardize character encoding.',
+	'To encrypt data.',
 	1,
 	0
 );
 
 // Question 8
 var q8 = new CQuiz(
-	'How do you write "Hello World" in an alert box?',
-	'alert("Hello World");',
-	'msgBox("Hello World");',
-	'prompt("Hello World");',
-	'alertBox("Hello World");',
-	1,
+	'What is the primary processing step that occurs before an application generates output?',
+	'get input from the user.',
+	'Data storing.',
+	'Algorithm execution',
+	'Data removing',
+	3,
 	0
 );
 
 // Question 9
 var q9 = new CQuiz(
-	'How do you create a function in JavaScript?',
-	'function = myFunction()',
-	'function:myFunction()',
-	'function myFunction()',
-	'None of the mentioned',
+	'What is the smallest unit used for storage in computing?',
+	'Mega Byte',
+	'Giga bit',
+	'kilo byte',
+	'Tera bit',
 	3,
 	0
 );
 
 // Question 10
 var q10 = new CQuiz(
-	'How do you call a function named "myFunction"?',
-	'myFunction()',
-	'call function myFunction()',
-	'call myFunction()',
-	'None of the mentioned',
+	'What is the main difference between an Arithmetic Logic Unit (ALU) and a transistor in processing data?',
+	'ALU performs calculations, while a transistor process electrical signals to binary codes.',
+	'ALU stores data, while a transistor process electrical signals to binary codes.',
+	'ALU controls data flow, while a transistor converts digital signals to information.',
+	'ALU executes instructions, while a transistor stores memory.',
 	1,
 	0
 );
