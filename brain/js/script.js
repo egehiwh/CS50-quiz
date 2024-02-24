@@ -343,7 +343,7 @@ function showResult(percentage, ca) {
 		correctAns.innerHTML = 'Correct Answers: ' + ca;
 	} else {
 		RColor = 'red';
-		resultFb.innerHTML = 'للاسف الشديد انت شلت المادة؛ سجلها سمر <br> ولا تزعل نفسك با هندسه امتحان و عدي مكنش امتحان الآخره';
+		resultFb.innerHTML = 'للاسف الشديد انت شلت المادة؛ سجلها سمر <br> ولا تزعل نفسك يا هندسه امتحان و عدي مكنش امتحان الآخره';
 		correctAns.innerHTML = 'Correct Answers: ' + ca;
 	}
 
