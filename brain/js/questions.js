@@ -82,7 +82,7 @@ var q7 = new CQuiz(
 	'To represent numeric values.',
 	'To standardize character encoding.',
 	'To encrypt data.',
-	1,
+	3,
 	0
 );
 
